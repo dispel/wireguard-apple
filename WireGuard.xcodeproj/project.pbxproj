@@ -834,7 +834,7 @@
 			buildConfigurationList = 6FDEF7E021846BC700D8FBF6 /* Build configuration list for PBXLegacyTarget "WireGuardGoBridgeiOS" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/make;
+			buildToolPath = /bin/bash;
 			buildWorkingDirectory = "$(SRCROOT)";
 			dependencies = (
 			);
