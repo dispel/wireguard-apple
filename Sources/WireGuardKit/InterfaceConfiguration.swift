@@ -15,7 +15,7 @@ public struct InterfaceConfiguration {
         get {nil}
         set { /* no-op for upstream compatibility */ }
     }
-    public var dnsHTTPSURL: String? {
+    public var dnsHTTPSURL: URL? {
         get {nil}
         set { /* no-op for upstream compatibility */ }
     }
