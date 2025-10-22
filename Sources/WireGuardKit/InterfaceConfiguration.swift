@@ -11,6 +11,14 @@ public struct InterfaceConfiguration {
     public var mtu: UInt16?
     public var dns = [DNSServer]()
     public var dnsSearch = [String]()
+    public var dnsTLSServerName: String? {
+        get {nil}
+        set { /* no-op for upstream compatibility */ }
+    }
+    public var dnsHTTPSURL: URL? {
+        get {nil}
+        set { /* no-op for upstream compatibility */ }
+    }
 
     public init(privateKey: PrivateKey) {
         self.privateKey = privateKey
